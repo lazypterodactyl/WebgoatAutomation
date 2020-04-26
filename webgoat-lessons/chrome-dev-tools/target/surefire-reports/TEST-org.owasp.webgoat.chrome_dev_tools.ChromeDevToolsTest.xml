@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.chrome_dev_tools.ChromeDevToolsTest" time="12.357" tests="2" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="NetworkAssignmentTest_Fail" classname="org.owasp.webgoat.chrome_dev_tools.ChromeDevToolsTest" time="0.504"/>
+  <testcase name="NetworkAssignmentTest_Success" classname="org.owasp.webgoat.chrome_dev_tools.ChromeDevToolsTest" time="0.047"/>
+</testsuite>

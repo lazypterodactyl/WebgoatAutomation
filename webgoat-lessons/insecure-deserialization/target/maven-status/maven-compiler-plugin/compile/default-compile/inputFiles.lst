@@ -1,0 +1,4 @@
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/insecure-deserialization/src/main/java/org/owasp/webgoat/deserialization/SerializationHelper.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/insecure-deserialization/src/main/java/org/owasp/webgoat/deserialization/InsecureDeserializationTask.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/insecure-deserialization/src/main/java/org/dummy/insecure/framework/VulnerableTaskHolder.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/insecure-deserialization/src/main/java/org/owasp/webgoat/deserialization/InsecureDeserialization.java

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.http_proxies.HttpBasicsInterceptRequestTest" time="1.792" tests="5" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="success" classname="org.owasp.webgoat.http_proxies.HttpBasicsInterceptRequestTest" time="1.61"/>
+  <testcase name="missingHeader" classname="org.owasp.webgoat.http_proxies.HttpBasicsInterceptRequestTest" time="0.019"/>
+  <testcase name="missingParam" classname="org.owasp.webgoat.http_proxies.HttpBasicsInterceptRequestTest" time="0.026"/>
+  <testcase name="failure" classname="org.owasp.webgoat.http_proxies.HttpBasicsInterceptRequestTest" time="0.033"/>
+  <testcase name="whenPostAssignmentShouldNotPass" classname="org.owasp.webgoat.http_proxies.HttpBasicsInterceptRequestTest" time="0.026"/>
+</testsuite>

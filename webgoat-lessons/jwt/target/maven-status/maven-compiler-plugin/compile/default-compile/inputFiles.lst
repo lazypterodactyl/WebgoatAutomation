@@ -1,0 +1,7 @@
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWTSecretKeyEndpoint.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/votes/Vote.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWTFinalEndpoint.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWTVotesEndpoint.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWTRefreshEndpoint.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/votes/Views.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWT.java

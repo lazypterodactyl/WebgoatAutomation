@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson5aTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.137 s - in org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson5aTest

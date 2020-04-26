@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.bypass_restrictions.BypassRestrictionsFrontendValidationTest" time="12.672" tests="3" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="bypassAllFieldShouldPass" classname="org.owasp.webgoat.bypass_restrictions.BypassRestrictionsFrontendValidationTest" time="0.498"/>
+  <testcase name="notBypassingAllFieldShouldNotPass" classname="org.owasp.webgoat.bypass_restrictions.BypassRestrictionsFrontendValidationTest" time="0.052"/>
+  <testcase name="noChangesShouldNotPassTheLesson" classname="org.owasp.webgoat.bypass_restrictions.BypassRestrictionsFrontendValidationTest" time="0.022"/>
+</testsuite>

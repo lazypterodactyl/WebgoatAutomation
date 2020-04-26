@@ -1,0 +1,16 @@
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/SqlInjectionMitigationTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/SqlInjectionAdvancedTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/GeneralLessonTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/SqlInjectionLessonTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/CryptoTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/IntegrationTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/PathTraversalTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/WebWolfTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/XSSTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/ProgressRaceConditionTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/CSRFTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/WebDriverJUnit1Test.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/JWTLessonTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/XXETest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/DeserializationTest.java
+/root/IdeaProjects/WebGoat2/WebGoat/webgoat-integration-tests/src/test/java/org/owasp/webgoat/PasswordResetLessonTest.java

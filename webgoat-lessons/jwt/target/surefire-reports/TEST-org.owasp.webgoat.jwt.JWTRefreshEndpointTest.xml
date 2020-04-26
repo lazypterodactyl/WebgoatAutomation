@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.286" tests="11" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="noTokenWhileLoginShouldReturn401" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.02"/>
+  <testcase name="newTokenShouldWorkForJerry" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.043"/>
+  <testcase name="loginShouldNotWorkForTom" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.011"/>
+  <testcase name="flowForJerryAlwaysWorks" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.044"/>
+  <testcase name="solveAssignment" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.036"/>
+  <testcase name="checkoutWithTomsTokenFromAccessLogShouldFail" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.025"/>
+  <testcase name="noTokenWhileRequestingNewTokenShouldReturn401" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.008"/>
+  <testcase name="noTokenWhileCheckoutShouldReturn401" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.009"/>
+  <testcase name="checkoutWitRandomTokenShouldFail" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.031"/>
+  <testcase name="unknownRefreshTokenShouldGiveUnauthorized" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.021"/>
+  <testcase name="loginShouldNotWorkForJerryWithWrongPassword" classname="org.owasp.webgoat.jwt.JWTRefreshEndpointTest" time="0.013"/>
+</testsuite>

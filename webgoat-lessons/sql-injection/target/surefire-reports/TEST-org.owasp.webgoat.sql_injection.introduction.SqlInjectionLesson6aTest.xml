@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson6aTest" time="0.175" tests="6" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="wrongSolution" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson6aTest" time="0.026"/>
+  <testcase name="noResultsReturned" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson6aTest" time="0.041"/>
+  <testcase name="correctSolution" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson6aTest" time="0.028"/>
+  <testcase name="noUnionUsed" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson6aTest" time="0.024"/>
+  <testcase name="wrongNumberOfColumns" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson6aTest" time="0.023"/>
+  <testcase name="wrongDataTypeOfColumns" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson6aTest" time="0.021"/>
+</testsuite>

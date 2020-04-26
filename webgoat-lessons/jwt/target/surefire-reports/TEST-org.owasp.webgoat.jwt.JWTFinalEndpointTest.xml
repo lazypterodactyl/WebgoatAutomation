@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.jwt.JWTFinalEndpointTest" time="0.115" tests="4" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="shouldNotBeAbleToBypassWithSimpleToken" classname="org.owasp.webgoat.jwt.JWTFinalEndpointTest" time="0.036"/>
+  <testcase name="solveAssignment" classname="org.owasp.webgoat.jwt.JWTFinalEndpointTest" time="0.033"/>
+  <testcase name="testJWTTestTools" classname="org.owasp.webgoat.jwt.JWTFinalEndpointTest" time="0.012"/>
+  <testcase name="withJerrysKeyShouldNotSolveAssignment" classname="org.owasp.webgoat.jwt.JWTFinalEndpointTest" time="0.021"/>
+</testsuite>

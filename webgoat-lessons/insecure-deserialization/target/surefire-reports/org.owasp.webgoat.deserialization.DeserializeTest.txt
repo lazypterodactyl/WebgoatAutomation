@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.owasp.webgoat.deserialization.DeserializeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.947 s - in org.owasp.webgoat.deserialization.DeserializeTest

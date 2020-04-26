@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="12.979" tests="9" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="addressCorrectShouldOrderByHostname" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.215"/>
+  <testcase name="addressIncorrectShouldOrderByIdUsingSubstr" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.014"/>
+  <testcase name="postingCorrectAnswerShouldPassTheLesson" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.289"/>
+  <testcase name="addressCorrectShouldOrderByHostnameUsingSubstr" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.023"/>
+  <testcase name="knownAccountShouldDisplayData" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.012"/>
+  <testcase name="falseShouldSortById" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.011"/>
+  <testcase name="postingWrongAnswerShouldNotPassTheLesson" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.056"/>
+  <testcase name="trueShouldSortByHostname" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.014"/>
+  <testcase name="addressIncorrectShouldOrderByHostname" classname="org.owasp.webgoat.sql_injection.mitigation.SqlInjectionLesson12aTest" time="0.011"/>
+</testsuite>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.client_side_filtering.ShopEndpointTest" time="12.685" tests="4" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="fetchAllTheCouponsShouldContainGetItForFree" classname="org.owasp.webgoat.client_side_filtering.ShopEndpointTest" time="0.205"/>
+  <testcase name="askForUnknownCouponCode" classname="org.owasp.webgoat.client_side_filtering.ShopEndpointTest" time="0.034"/>
+  <testcase name="getCoupon" classname="org.owasp.webgoat.client_side_filtering.ShopEndpointTest" time="0.018"/>
+  <testcase name="getSuperCoupon" classname="org.owasp.webgoat.client_side_filtering.ShopEndpointTest" time="0.017"/>
+</testsuite>

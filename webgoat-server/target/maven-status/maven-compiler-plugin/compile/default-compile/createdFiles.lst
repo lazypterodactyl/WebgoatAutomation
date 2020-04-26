@@ -1,0 +1,3 @@
+org/owasp/webgoat/HSQLDBDatabaseConfig.class
+org/owasp/webgoat/EndpointsListener.class
+org/owasp/webgoat/StartWebGoat.class

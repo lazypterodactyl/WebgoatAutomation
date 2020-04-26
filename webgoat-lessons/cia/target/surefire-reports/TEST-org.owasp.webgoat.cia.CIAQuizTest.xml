@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.cia.CIAQuizTest" time="13.077" tests="9" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="firstAnswerFalseGetResultsReturnsFalseTrueTrueTrue" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.634"/>
+  <testcase name="oneAnswerWrongIsFailure" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.076"/>
+  <testcase name="allAnswersCorrectIsSuccess" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.022"/>
+  <testcase name="secondAnswerFalseGetResultsReturnsTrueFalseTrueTrue" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.025"/>
+  <testcase name="twoAnswersWrongIsFailure" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.024"/>
+  <testcase name="threeAnswersWrongIsFailure" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.026"/>
+  <testcase name="allAnswersCorrectGetResultsReturnsTrueTrueTrueTrue" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.03"/>
+  <testcase name="allAnswersWrongIsFailure" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.038"/>
+  <testcase name="allAnswersFalseGetResultsReturnsFalseFalseFalseFalse" classname="org.owasp.webgoat.cia.CIAQuizTest" time="0.024"/>
+</testsuite>

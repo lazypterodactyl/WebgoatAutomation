@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:feature" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:release" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:revert-733-dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:revert-733-dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:revert-733-dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:webgoat-lessons" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e2d4a91-143b-417c-b1d7-d24936aaa71a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-endpoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webgoat-container/src/main/java/org/owasp/webgoat/controller/EndpointDocController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webgoat-container/src/main/resources/templates/endpoindoc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webgoat-server/src/main/java/org/owasp/webgoat/EndpointsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webgoat-container/src/main/java/org/owasp/webgoat/MvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/webgoat-container/src/main/java/org/owasp/webgoat/MvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webgoat-container/src/main/java/org/owasp/webgoat/controller/StartLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/webgoat-container/src/main/java/org/owasp/webgoat/controller/StartLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webgoat-integration-tests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webgoat-integration-tests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webgoat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webgoat-server/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ajcILwWvqDC2jBqwSl7sznQgfK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e2d4a91-143b-417c-b1d7-d24936aaa71a" name="Default Changelist" comment="" />
+      <created>1587252362912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587252362912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="784" y="192" width="620" height="804" key="find.popup" timestamp="1587932863693">
+      <screen x="0" y="27" width="2106" height="1138" />
+    </state>
+    <state x="784" y="192" width="620" height="804" key="find.popup/0.27.2106.1138@0.27.2106.1138" timestamp="1587932863693" />
+    <state x="944" y="344" key="run.anything.popup" timestamp="1587347545343">
+      <screen x="0" y="27" width="2560" height="1413" />
+    </state>
+    <state x="944" y="344" key="run.anything.popup/0.27.2560.1413@0.27.2560.1413" timestamp="1587347545343" />
+  </component>
+</project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.missing_ac.MissingFunctionACHiddenMenusTest" time="0.07" tests="3" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="HiddenMenusSuccess" classname="org.owasp.webgoat.missing_ac.MissingFunctionACHiddenMenusTest" time="0.023"/>
+  <testcase name="HiddenMenusFailure" classname="org.owasp.webgoat.missing_ac.MissingFunctionACHiddenMenusTest" time="0.025"/>
+  <testcase name="HiddenMenusClose" classname="org.owasp.webgoat.missing_ac.MissingFunctionACHiddenMenusTest" time="0.02"/>
+</testsuite>

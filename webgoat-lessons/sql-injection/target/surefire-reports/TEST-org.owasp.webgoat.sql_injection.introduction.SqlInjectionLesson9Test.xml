@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9Test" time="0.251" tests="6" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="SmithIsMostEarningCompletesAssignment" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9Test" time="0.034"/>
+  <testcase name="oneAccount" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9Test" time="0.046"/>
+  <testcase name="multipleAccounts" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9Test" time="0.059"/>
+  <testcase name="malformedQueryReturnsError" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9Test" time="0.035"/>
+  <testcase name="wrongNameReturnsNoAccounts" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9Test" time="0.031"/>
+  <testcase name="wrongTANReturnsNoAccounts" classname="org.owasp.webgoat.sql_injection.introduction.SqlInjectionLesson9Test" time="0.03"/>
+</testsuite>

@@ -1,0 +1,10 @@
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson10Test.class
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson2Test.class
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5aTest.class
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson8Test.class
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson6aTest.class
+org/owasp/webgoat/sql_injection/SqlLessonTest.class
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5Test.class
+org/owasp/webgoat/sql_injection/mitigation/SqlInjectionLesson12aTest.class
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson6bTest.class
+org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson9Test.class

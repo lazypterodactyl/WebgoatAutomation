@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: org.owasp.webgoat.WebDriverJUnit1Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 335.755 s <<< FAILURE! - in org.owasp.webgoat.WebDriverJUnit1Test
+test  Time elapsed: 335.745 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-kali4-amd64', java.version: '11.0.7-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.7.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403171148, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 146710, moz:profile: /tmp/rust_mozprofilelDz8mv, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-kali4-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bd93d6b1-e9c1-4012-a365-f8f5334e7ee5
+	org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'kali', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-kali4-amd64', java.version: '11.0.7-ea'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.7.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200403171148, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 146710, moz:profile: /tmp/rust_mozprofilelDz8mv, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-kali4-amd64, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bd93d6b1-e9c1-4012-a365-f8f5334e7ee5
+

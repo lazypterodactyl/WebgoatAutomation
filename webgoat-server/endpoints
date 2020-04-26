@@ -1,0 +1,448 @@
+{ /error.html, produces [text/html]}
+{ /service/session.mvc, produces [application/json]}
+{[GET, POST] /startlesson.mvc}
+{ /*.lesson, produces [text/html]}
+{ /service/lessonoverview.mvc, produces [application/json]}
+{ /service/lessonmenu.mvc, produces [application/json]}
+{GET /scoreboard-data}
+{POST /register.mvc}
+{GET /registration}
+{GET [/welcome.mvc, /]}
+{[GET, POST] /attack}
+{GET /service/hint.mvc, produces [application/json]}
+{ /service/lessoninfo.mvc, produces [application/json]}
+{ /service/lessontitle.mvc, produces [application/html]}
+{ /service/debug/labels.mvc, produces [application/json]}
+{ /service/debug/labels.mvc, params [enabled], produces [application/json]}
+{GET /service/labels.mvc, produces [application/json]}
+{GET /service/reportcard.mvc, produces [application/json]}
+{ /service/restartlesson.mvc, produces [text/text]}
+{GET /challenge/8/vote/{stars}, produces [application/json]}
+{GET /challenge/8/votes/}
+{GET /challenge/8/votes/average}
+{POST /challenge/1}
+{POST /challenge/5}
+{POST /challenge/flag, produces [application/json]}
+{GET /challenge/7/reset-password/{link}}
+{POST /challenge/7}
+{GET /challenge/7/.git, produces [application/octet-stream]}
+{POST /BypassRestrictions/FieldRestrictions}
+{POST /BypassRestrictions/frontendValidation}
+{POST /clientSideFiltering/attack1}
+{GET /clientSideFiltering/challenge-store/coupons, produces [application/json]}
+{GET /clientSideFiltering/challenge-store/coupons/{code}, produces [application/json]}
+{POST /clientSideFiltering/getItForFree}
+{GET /clientSideFiltering/salaries}
+{POST /crypto/hashing}
+{ /crypto/hashing/md5, produces [text/html]}
+{ /crypto/hashing/sha256, produces [text/html]}
+{POST /crypto/encoding/basic-auth}
+{GET /crypto/encoding/basic, produces [text/html]}
+{POST /crypto/signing/verify}
+{ /crypto/signing/getprivate, produces [text/html]}
+{POST /crypto/encoding/xor}
+{POST /crypto/secure/defaults}
+{GET /CrossSiteScripting/attack5a}
+{POST /CrossSiteScripting/attack6a}
+{POST /CrossSiteScripting/attack1}
+{POST /CrossSiteScriptingStored/stored-xss}
+{GET /CrossSiteScriptingStored/stored-xss, consumes [*/*], produces [application/json]}
+{POST /CrossSiteScripting/dom-follow-up}
+{POST /CrossSiteScriptingStored/stored-xss-follow-up}
+{POST /CrossSiteScripting/quiz}
+{GET /CrossSiteScripting/quiz}
+{POST /CrossSiteScripting/phone-home-xss}
+{POST /HtmlTampering/task}
+{POST /HttpBasics/attack1}
+{POST /HttpBasics/attack2}
+{[POST, GET] /HttpProxies/intercept-request}
+{POST /cia/quiz}
+{GET /cia/quiz}
+{POST /ChromeDevTools/network, params [networkNum]}
+{POST /ChromeDevTools/network, params [network_num && number]}
+{POST /ChromeDevTools/dummy}
+{PUT /IDOR/profile/{userId}, consumes [application/json]}
+{POST /IDOR/login}
+{GET [/IDOR/own, /IDOR/profile], produces [application/json]}
+{POST /IDOR/diff-attributes}
+{POST /IDOR/profile/alt-path}
+{GET /IDOR/profile/{userId}, produces [application/json]}
+{POST /csrf/basic-get-flag, produces [application/json]}
+{POST /csrf/login, produces [application/json]}
+{GET /csrf/review, consumes [*/*], produces [application/json]}
+{POST /csrf/review}
+{POST /csrf/feedback, produces [application/json]}
+{POST /csrf/feedback/message, produces [application/json]}
+{POST /csrf/confirm-flag-1, produces [application/json]}
+{POST /InsecureLogin/task}
+{POST /InsecureDeserialization/task}
+{GET /JWT/votings/login}
+{POST /JWT/votings/{title}}
+{GET /JWT/votings}
+{POST /JWT/votings}
+{POST /JWT/secret}
+{ /JWT/secret/gettoken, produces [text/html]}
+{POST /JWT/decode, produces [text/html]}
+{POST /JWT/encode, produces [text/html]}
+{POST /JWT/final/delete}
+{POST /JWT/final/follow/{user}}
+{POST /JWT/refresh/newToken}
+{POST /JWT/refresh/login, consumes [application/json], produces [application/json]}
+{POST /JWT/refresh/checkout}
+{POST /PathTraversal/profile-upload-remove-user-input, consumes [*/*], produces [application/json]}
+{POST /PathTraversal/profile-upload, consumes [*/*], produces [application/json]}
+{GET /PathTraversal/profile-picture}
+{POST /PathTraversal/profile-upload-fix, consumes [*/*], produces [application/json]}
+{GET /PathTraversal/profile-picture-fix}
+{POST /PathTraversal/random}
+{GET /PathTraversal/random-picture}
+{POST /SqlInjectionAdvanced/challenge_Login}
+{POST /SqlInjection/attack9}
+{POST /SqlInjectionMitigations/attack10b}
+{GET /SqlInjectionMitigations/servers, produces [application/json]}
+{POST /SqlInjectionMitigations/attack10a}
+{POST /SqlInjectionAdvanced/quiz}
+{GET /SqlInjectionAdvanced/quiz}
+{POST /SqlInjectionAdvanced/attack6b}
+{POST /SqlInjection/attack10}
+{POST /SqlInjection/attack4}
+{PUT /SqlInjectionAdvanced/challenge}
+{POST /SqlInjection/assignment5b}
+{POST /SqlInjectionMitigations/attack12a}
+{POST /SqlInjectionAdvanced/attack6a}
+{POST /SqlInjection/assignment5a}
+{POST /SqlInjection/attack3}
+{POST /SqlInjection/attack5}
+{POST /SqlInjection/attack2}
+{POST /SqlInjection/attack8}
+{POST /VulnerableComponents/attack1}
+{POST /xxe/blind, consumes [*/*], produces [application/json]}
+{POST /xxe/simple, consumes [*/*], produces [application/json]}
+{ /xxe/tmpdir, consumes [*/*], produces [text/plain]}
+{ /xxe/sampledtd, consumes [*/*], produces [text/plain]}
+{GET /xxe/comments, produces [application/json]}
+{POST /xxe/content-type, consumes [*/*], produces [application/json]}
+{POST /auth-bypass/verify-account, produces [application/json]}
+{POST /WebWolf/landing}
+{GET /WebWolf/landing/password-reset}
+{POST /WebWolf/mail}
+{POST /WebWolf/mail/send}
+{POST /access-control/hidden-menu, produces [application/json]}
+{POST /access-control/user-hash, produces [application/json]}
+{POST [/users, /], consumes [application/json], produces [application/json]}
+{GET /users}
+{GET [/users, /], consumes [application/json]}
+{POST /PasswordReset/ForgotPassword/create-password-reset-link}
+{POST /PasswordReset/reset/login}
+{GET /PasswordReset/reset/reset-password/{link}}
+{GET /PasswordReset/reset/change-password}
+{POST /PasswordReset/reset/change-password}
+{POST /PasswordReset/questions, consumes [application/x-www-form-urlencoded]}
+{POST /PasswordReset/SecurityQuestions}
+{POST /PasswordReset/simple-mail, consumes [application/x-www-form-urlencoded]}
+{POST /PasswordReset/simple-mail/reset, consumes [application/x-www-form-urlencoded]}
+{POST /SSRF/task2}
+{POST /SSRF/task1}
+{POST /SecurePasswords/assignment}
+{POST /lesson-template/sample-attack}
+{GET /lesson-template/shop/{user}}
+{ /error.html}
+{ /error.html, produces [text/html]}
+{ /service/session.mvc, produces [application/json]}
+{[GET, POST] /startlesson.mvc}
+{ /*.lesson, produces [text/html]}
+{ /service/lessonoverview.mvc, produces [application/json]}
+{ /service/lessonmenu.mvc, produces [application/json]}
+{GET /scoreboard-data}
+{POST /register.mvc}
+{GET /registration}
+{GET [/welcome.mvc, /]}
+{[GET, POST] /attack}
+{GET /service/hint.mvc, produces [application/json]}
+{ /service/lessoninfo.mvc, produces [application/json]}
+{ /service/lessontitle.mvc, produces [application/html]}
+{ /service/debug/labels.mvc, produces [application/json]}
+{ /service/debug/labels.mvc, params [enabled], produces [application/json]}
+{GET /service/labels.mvc, produces [application/json]}
+{GET /service/reportcard.mvc, produces [application/json]}
+{ /service/restartlesson.mvc, produces [text/text]}
+{GET /challenge/8/vote/{stars}, produces [application/json]}
+{GET /challenge/8/votes/}
+{GET /challenge/8/votes/average}
+{POST /challenge/1}
+{POST /challenge/5}
+{POST /challenge/flag, produces [application/json]}
+{GET /challenge/7/reset-password/{link}}
+{POST /challenge/7}
+{GET /challenge/7/.git, produces [application/octet-stream]}
+{POST /BypassRestrictions/FieldRestrictions}
+{POST /BypassRestrictions/frontendValidation}
+{POST /clientSideFiltering/attack1}
+{GET /clientSideFiltering/challenge-store/coupons, produces [application/json]}
+{GET /clientSideFiltering/challenge-store/coupons/{code}, produces [application/json]}
+{POST /clientSideFiltering/getItForFree}
+{GET /clientSideFiltering/salaries}
+{POST /crypto/hashing}
+{ /crypto/hashing/md5, produces [text/html]}
+{ /crypto/hashing/sha256, produces [text/html]}
+{POST /crypto/encoding/basic-auth}
+{GET /crypto/encoding/basic, produces [text/html]}
+{POST /crypto/signing/verify}
+{ /crypto/signing/getprivate, produces [text/html]}
+{POST /crypto/encoding/xor}
+{POST /crypto/secure/defaults}
+{GET /CrossSiteScripting/attack5a}
+{POST /CrossSiteScripting/attack6a}
+{POST /CrossSiteScripting/attack1}
+{GET /CrossSiteScriptingStored/stored-xss, consumes [*/*], produces [application/json]}
+{POST /CrossSiteScriptingStored/stored-xss}
+{POST /CrossSiteScripting/dom-follow-up}
+{POST /CrossSiteScriptingStored/stored-xss-follow-up}
+{POST /CrossSiteScripting/quiz}
+{GET /CrossSiteScripting/quiz}
+{POST /CrossSiteScripting/phone-home-xss}
+{POST /HtmlTampering/task}
+{POST /HttpBasics/attack1}
+{POST /HttpBasics/attack2}
+{[POST, GET] /HttpProxies/intercept-request}
+{POST /cia/quiz}
+{GET /cia/quiz}
+{POST /ChromeDevTools/network, params [networkNum]}
+{POST /ChromeDevTools/network, params [network_num && number]}
+{POST /ChromeDevTools/dummy}
+{PUT /IDOR/profile/{userId}, consumes [application/json]}
+{POST /IDOR/login}
+{GET [/IDOR/own, /IDOR/profile], produces [application/json]}
+{POST /IDOR/diff-attributes}
+{POST /IDOR/profile/alt-path}
+{GET /IDOR/profile/{userId}, produces [application/json]}
+{POST /csrf/basic-get-flag, produces [application/json]}
+{POST /csrf/login, produces [application/json]}
+{GET /csrf/review, consumes [*/*], produces [application/json]}
+{POST /csrf/review}
+{POST /csrf/feedback, produces [application/json]}
+{POST /csrf/feedback/message, produces [application/json]}
+{POST /csrf/confirm-flag-1, produces [application/json]}
+{POST /InsecureLogin/task}
+{POST /InsecureDeserialization/task}
+{GET /JWT/votings/login}
+{POST /JWT/votings/{title}}
+{GET /JWT/votings}
+{POST /JWT/votings}
+{POST /JWT/secret}
+{ /JWT/secret/gettoken, produces [text/html]}
+{POST /JWT/decode, produces [text/html]}
+{POST /JWT/encode, produces [text/html]}
+{POST /JWT/final/delete}
+{POST /JWT/final/follow/{user}}
+{POST /JWT/refresh/login, consumes [application/json], produces [application/json]}
+{POST /JWT/refresh/checkout}
+{POST /JWT/refresh/newToken}
+{POST /PathTraversal/profile-upload-remove-user-input, consumes [*/*], produces [application/json]}
+{POST /PathTraversal/profile-upload, consumes [*/*], produces [application/json]}
+{GET /PathTraversal/profile-picture}
+{POST /PathTraversal/profile-upload-fix, consumes [*/*], produces [application/json]}
+{GET /PathTraversal/profile-picture-fix}
+{POST /PathTraversal/random}
+{GET /PathTraversal/random-picture}
+{POST /SqlInjectionAdvanced/challenge_Login}
+{POST /SqlInjection/attack9}
+{POST /SqlInjectionMitigations/attack10b}
+{GET /SqlInjectionMitigations/servers, produces [application/json]}
+{POST /SqlInjectionMitigations/attack10a}
+{POST /SqlInjectionAdvanced/quiz}
+{GET /SqlInjectionAdvanced/quiz}
+{POST /SqlInjectionAdvanced/attack6b}
+{POST /SqlInjection/attack10}
+{POST /SqlInjection/attack4}
+{PUT /SqlInjectionAdvanced/challenge}
+{POST /SqlInjection/assignment5b}
+{POST /SqlInjectionMitigations/attack12a}
+{POST /SqlInjectionAdvanced/attack6a}
+{POST /SqlInjection/assignment5a}
+{POST /SqlInjection/attack3}
+{POST /SqlInjection/attack5}
+{POST /SqlInjection/attack2}
+{POST /SqlInjection/attack8}
+{POST /VulnerableComponents/attack1}
+{POST /xxe/blind, consumes [*/*], produces [application/json]}
+{POST /xxe/simple, consumes [*/*], produces [application/json]}
+{ /xxe/tmpdir, consumes [*/*], produces [text/plain]}
+{ /xxe/sampledtd, consumes [*/*], produces [text/plain]}
+{GET /xxe/comments, produces [application/json]}
+{POST /xxe/content-type, consumes [*/*], produces [application/json]}
+{POST /auth-bypass/verify-account, produces [application/json]}
+{POST /WebWolf/landing}
+{GET /WebWolf/landing/password-reset}
+{POST /WebWolf/mail}
+{POST /WebWolf/mail/send}
+{POST /access-control/hidden-menu, produces [application/json]}
+{POST /access-control/user-hash, produces [application/json]}
+{POST [/users, /], consumes [application/json], produces [application/json]}
+{GET /users}
+{GET [/users, /], consumes [application/json]}
+{POST /PasswordReset/ForgotPassword/create-password-reset-link}
+{POST /PasswordReset/reset/login}
+{GET /PasswordReset/reset/reset-password/{link}}
+{GET /PasswordReset/reset/change-password}
+{POST /PasswordReset/reset/change-password}
+{POST /PasswordReset/questions, consumes [application/x-www-form-urlencoded]}
+{POST /PasswordReset/SecurityQuestions}
+{POST /PasswordReset/simple-mail, consumes [application/x-www-form-urlencoded]}
+{POST /PasswordReset/simple-mail/reset, consumes [application/x-www-form-urlencoded]}
+{POST /SSRF/task2}
+{POST /SSRF/task1}
+{POST /SecurePasswords/assignment}
+{POST /lesson-template/sample-attack}
+{GET /lesson-template/shop/{user}}
+{ /error.html}
+{ /error.html, produces [text/html]}
+{GET /scoreboard-data}
+{POST /register.mvc}
+{GET /registration}
+{[GET, POST] /startlesson.mvc}
+{ /*.lesson, produces [text/html]}
+{GET [/welcome.mvc, /]}
+{ /service/lessoninfo.mvc, produces [application/json]}
+{ /service/lessontitle.mvc, produces [application/html]}
+{GET /service/reportcard.mvc, produces [application/json]}
+{[GET, POST] /attack}
+{GET /service/hint.mvc, produces [application/json]}
+{ /service/debug/labels.mvc, produces [application/json]}
+{ /service/debug/labels.mvc, params [enabled], produces [application/json]}
+{GET /service/labels.mvc, produces [application/json]}
+{ /service/restartlesson.mvc, produces [text/text]}
+{ /service/lessonoverview.mvc, produces [application/json]}
+{ /service/session.mvc, produces [application/json]}
+{ /service/lessonmenu.mvc, produces [application/json]}
+{POST /challenge/1}
+{POST /challenge/5}
+{GET /challenge/8/vote/{stars}, produces [application/json]}
+{GET /challenge/8/votes/}
+{GET /challenge/8/votes/average}
+{POST /challenge/flag, produces [application/json]}
+{GET /challenge/7/reset-password/{link}}
+{POST /challenge/7}
+{GET /challenge/7/.git, produces [application/octet-stream]}
+{POST /BypassRestrictions/FieldRestrictions}
+{POST /BypassRestrictions/frontendValidation}
+{POST /clientSideFiltering/attack1}
+{GET /clientSideFiltering/challenge-store/coupons, produces [application/json]}
+{GET /clientSideFiltering/challenge-store/coupons/{code}, produces [application/json]}
+{POST /clientSideFiltering/getItForFree}
+{GET /clientSideFiltering/salaries}
+{POST /crypto/hashing}
+{ /crypto/hashing/md5, produces [text/html]}
+{ /crypto/hashing/sha256, produces [text/html]}
+{POST /crypto/encoding/basic-auth}
+{GET /crypto/encoding/basic, produces [text/html]}
+{POST /crypto/signing/verify}
+{ /crypto/signing/getprivate, produces [text/html]}
+{POST /crypto/encoding/xor}
+{POST /crypto/secure/defaults}
+{GET /CrossSiteScripting/attack5a}
+{POST /CrossSiteScripting/attack6a}
+{POST /CrossSiteScripting/attack1}
+{GET /CrossSiteScriptingStored/stored-xss, consumes [*/*], produces [application/json]}
+{POST /CrossSiteScriptingStored/stored-xss}
+{POST /CrossSiteScripting/dom-follow-up}
+{POST /CrossSiteScriptingStored/stored-xss-follow-up}
+{POST /CrossSiteScripting/quiz}
+{GET /CrossSiteScripting/quiz}
+{POST /CrossSiteScripting/phone-home-xss}
+{POST /HtmlTampering/task}
+{POST /HttpBasics/attack1}
+{POST /HttpBasics/attack2}
+{[POST, GET] /HttpProxies/intercept-request}
+{POST /cia/quiz}
+{GET /cia/quiz}
+{POST /ChromeDevTools/network, params [networkNum]}
+{POST /ChromeDevTools/network, params [network_num && number]}
+{POST /ChromeDevTools/dummy}
+{PUT /IDOR/profile/{userId}, consumes [application/json]}
+{POST /IDOR/login}
+{GET [/IDOR/own, /IDOR/profile], produces [application/json]}
+{POST /IDOR/diff-attributes}
+{POST /IDOR/profile/alt-path}
+{GET /IDOR/profile/{userId}, produces [application/json]}
+{POST /csrf/basic-get-flag, produces [application/json]}
+{POST /csrf/login, produces [application/json]}
+{GET /csrf/review, consumes [*/*], produces [application/json]}
+{POST /csrf/review}
+{POST /csrf/feedback, produces [application/json]}
+{POST /csrf/feedback/message, produces [application/json]}
+{POST /csrf/confirm-flag-1, produces [application/json]}
+{POST /InsecureLogin/task}
+{POST /InsecureDeserialization/task}
+{POST /JWT/votings}
+{GET /JWT/votings/login}
+{POST /JWT/votings/{title}}
+{GET /JWT/votings}
+{ /JWT/secret/gettoken, produces [text/html]}
+{POST /JWT/secret}
+{POST /JWT/decode, produces [text/html]}
+{POST /JWT/encode, produces [text/html]}
+{POST /JWT/final/follow/{user}}
+{POST /JWT/final/delete}
+{POST /JWT/refresh/newToken}
+{POST /JWT/refresh/login, consumes [application/json], produces [application/json]}
+{POST /JWT/refresh/checkout}
+{POST /PathTraversal/profile-upload-remove-user-input, consumes [*/*], produces [application/json]}
+{POST /PathTraversal/profile-upload, consumes [*/*], produces [application/json]}
+{GET /PathTraversal/profile-picture}
+{POST /PathTraversal/profile-upload-fix, consumes [*/*], produces [application/json]}
+{GET /PathTraversal/profile-picture-fix}
+{POST /PathTraversal/random}
+{GET /PathTraversal/random-picture}
+{POST /SqlInjectionAdvanced/challenge_Login}
+{POST /SqlInjection/attack9}
+{POST /SqlInjectionMitigations/attack10b}
+{GET /SqlInjectionMitigations/servers, produces [application/json]}
+{POST /SqlInjectionMitigations/attack10a}
+{POST /SqlInjectionAdvanced/quiz}
+{GET /SqlInjectionAdvanced/quiz}
+{POST /SqlInjectionAdvanced/attack6b}
+{POST /SqlInjection/attack10}
+{POST /SqlInjection/attack4}
+{PUT /SqlInjectionAdvanced/challenge}
+{POST /SqlInjection/assignment5b}
+{POST /SqlInjectionMitigations/attack12a}
+{POST /SqlInjectionAdvanced/attack6a}
+{POST /SqlInjection/assignment5a}
+{POST /SqlInjection/attack3}
+{POST /SqlInjection/attack5}
+{POST /SqlInjection/attack2}
+{POST /SqlInjection/attack8}
+{POST /VulnerableComponents/attack1}
+{POST /xxe/blind, consumes [*/*], produces [application/json]}
+{POST /xxe/simple, consumes [*/*], produces [application/json]}
+{ /xxe/tmpdir, consumes [*/*], produces [text/plain]}
+{ /xxe/sampledtd, consumes [*/*], produces [text/plain]}
+{GET /xxe/comments, produces [application/json]}
+{POST /xxe/content-type, consumes [*/*], produces [application/json]}
+{POST /auth-bypass/verify-account, produces [application/json]}
+{POST /WebWolf/landing}
+{GET /WebWolf/landing/password-reset}
+{POST /WebWolf/mail}
+{POST /WebWolf/mail/send}
+{POST /access-control/hidden-menu, produces [application/json]}
+{POST /access-control/user-hash, produces [application/json]}
+{POST [/users, /], consumes [application/json], produces [application/json]}
+{GET /users}
+{GET [/users, /], consumes [application/json]}
+{POST /PasswordReset/ForgotPassword/create-password-reset-link}
+{POST /PasswordReset/reset/login}
+{GET /PasswordReset/reset/reset-password/{link}}
+{GET /PasswordReset/reset/change-password}
+{POST /PasswordReset/reset/change-password}
+{POST /PasswordReset/questions, consumes [application/x-www-form-urlencoded]}
+{POST /PasswordReset/SecurityQuestions}
+{POST /PasswordReset/simple-mail, consumes [application/x-www-form-urlencoded]}
+{POST /PasswordReset/simple-mail/reset, consumes [application/x-www-form-urlencoded]}
+{POST /SSRF/task2}
+{POST /SSRF/task1}
+{POST /SecurePasswords/assignment}
+{POST /lesson-template/sample-attack}
+{GET /lesson-template/shop/{user}}
+{ /error.html}
+{ /error.html, produces [text/html]}

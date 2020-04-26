@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring MVC 3.1 Demo Endpoints</title>
+</head>
+<body>
+<h1></h1>
+    <tr th:each="items : ${handlerMethods}" var="entry">
+        <td th:text="${entry.value}" />
+        <td th:text="${not empty entry.key.patternsCondition.patterns}" />
+        <td th:text="${entry.key.patternsCondition.patterns}" />
+        <div>
+            <hr>
+            <p><strong>${entry.value}</strong></p>
+    </div>
+</body>
+</html>

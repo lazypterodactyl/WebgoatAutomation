@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.owasp.webgoat.path_traversal.ProfileUploadRetrievalTest" time="0.153" tests="3" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="solve" classname="org.owasp.webgoat.path_traversal.ProfileUploadRetrievalTest" time="0.099"/>
+  <testcase name="shouldReceiveRandomPicture" classname="org.owasp.webgoat.path_traversal.ProfileUploadRetrievalTest" time="0.028"/>
+  <testcase name="unknownFileShouldGiveDirectoryContents" classname="org.owasp.webgoat.path_traversal.ProfileUploadRetrievalTest" time="0.015"/>
+</testsuite>
